@@ -1,0 +1,98 @@
+body
+{
+  width: 100%;
+  height:100vh;
+  margin:0;
+  margin: 0;
+  background-color:#1b1b32;
+  color:#f5f6f7;
+  font-family:Tahoma;
+  font-size:16px;
+}
+
+label
+{
+  display:block;
+  margin:0.5rem 0;
+}
+
+p
+{
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 13px;
+   
+}
+
+h1, p
+{
+  margin: 1em auto;
+  text-align:center;
+}
+
+h1
+{
+    margin-bottom: -5px;
+}
+
+
+
+
+form
+{
+  margin: 0 auto;
+  width:60vw;
+  max-width: 500px;
+  min-width:300px;
+  padding-bottom:2em;
+  background-color:#21215e;
+}
+
+fieldset
+{
+  border: red;
+  border-style: double;
+  padding:2rem 2rem 2rem;
+  border-bottom: 3px solid #3b3b4f;
+  
+
+}
+
+fieldset:last-of-type 
+{
+  border-bottom:none;
+ }
+
+ input, textarea,select
+{
+  width:100%;
+  margin: 10px 0 0;
+  min-height: 2em;
+}
+
+.inline
+{
+  width:unset;
+  margin:0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input, textarea
+{
+  background-color:#ffffff;
+  border:solid 1px #0a0a23;
+  color:#0a0a23;
+ 
+}
+
+input[type="submit"]
+{
+  display:block;
+  width:40%;
+  margin: 1em auto 1em;
+  font-size:1.1rem;
+  height: 2em;
+  border-color:white;
+  background-color: #3b3b4f;
+  min-width:300px;
+
+}
